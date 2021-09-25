@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Reto/Cual es el reto.md",
+            "file": "Reto/Primera conferencia socioformador.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reto/Cual es el reto.md",
+                "file": "Reto/Primera conferencia socioformador.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,8 +88,8 @@
   },
   "active": "11fde15b678c3517",
   "lastOpenFiles": [
-    "Reto/Cual es el reto.md",
     "Reto/Primera conferencia socioformador.md",
-    "Reto/Indice.md"
+    "Reto/Indice.md",
+    "Reto/Cual es el reto.md"
   ]
 }
