@@ -7,8 +7,11 @@
         "id": "11fde15b678c3517",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Reto/Cual es el reto.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Reto/Cual es el reto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -83,5 +87,9 @@
     "collapsed": true
   },
   "active": "11fde15b678c3517",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Reto/Cual es el reto.md",
+    "Reto/Primera conferencia socioformador.md",
+    "Reto/Indice.md"
+  ]
 }
