@@ -1,0 +1,104 @@
+{
+  "main": {
+    "id": "8dbb720b5f6314cf",
+    "type": "split",
+    "children": [
+      {
+        "id": "cee1b50b7cbe7b4a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Status.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bfad4568d7c484db",
+    "type": "split",
+    "children": [
+      {
+        "id": "8f2d9f852da790cd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b520a17ea6e22f0c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "c056ec7d6a54950f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 252
+  },
+  "right": {
+    "id": "dd5ab27bac354439",
+    "type": "split",
+    "children": [
+      {
+        "id": "c91690e144ea3701",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a578445076cd132d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Status.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "467c5c7dc22844d5",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "cee1b50b7cbe7b4a",
+  "lastOpenFiles": [
+    "Status.md",
+    "Untitled.md",
+    "conflict-files-obsidian-git.md"
+  ]
+}
