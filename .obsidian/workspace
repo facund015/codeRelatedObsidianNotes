@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "11fde15b678c3517",
+        "id": "763ae9654e6e7b84",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -86,8 +86,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "11fde15b678c3517",
+  "active": "763ae9654e6e7b84",
   "lastOpenFiles": [
+    "Diagramas.md",
     "Untitled.md",
     "Reto/Primera conferencia socioformador.md",
     "Reto/Indice.md",
