@@ -10,6 +10,17 @@
           "type": "markdown",
           "state": {
             "file": "Diagramas.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "ccc0e321e6c8c229",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Reto/Primera conferencia socioformador.md",
             "mode": "preview"
           }
         }
@@ -89,8 +100,8 @@
   "active": "763ae9654e6e7b84",
   "lastOpenFiles": [
     "Diagramas.md",
-    "Untitled.md",
     "Reto/Primera conferencia socioformador.md",
+    "Untitled.md",
     "Reto/Indice.md",
     "Reto/Cual es el reto.md"
   ]
