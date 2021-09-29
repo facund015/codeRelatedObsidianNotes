@@ -6,7 +6,6 @@
 - coordinador/maestro | informacion de alumnos | informacion general de los cursos que maneja 
 - coordinador nacional | informacion de cursos, informacion de alumnos inscritos | puede modificar la base de datos
 - matricula | nomina para login | cuenta de correo para colaboradores
-- login | desifrar cual es su rol del usuario
 - no registro de usuario | base de datos contiene usuarios dummy
 - aplicacion es para usuario | web es para administracion de datos | aplicacion web simple
 - 
