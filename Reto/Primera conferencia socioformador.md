@@ -13,5 +13,7 @@
 ### No funcionales
 - utilizar base de datos brindada por prepanet
 - no tecnologia definida para desarrollo web
+-  login | desifrar cual es su rol del usuario
+
 ## Otros
 - 
