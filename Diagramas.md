@@ -26,7 +26,7 @@ Project starts 2021-09-29
 
 
 
-[Actualizar Documentacion] as [ASRS] lasts 60 days
+[Actualizar Documentacion - Todos] as [ASRS] lasts 60 days
 @endgantt
 
 
