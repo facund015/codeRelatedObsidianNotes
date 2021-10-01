@@ -10,7 +10,7 @@ Project starts 2021-09-29
 [Casos de uso - Gilbert] as [CS] lasts 1 day and starts at [DR]'s end
 [Mockup - Facundo] as [MP] lasts 1 days and starts at [CS]'s start
 
-[Diseno de interfaz]
+[Prototipo de alto nivel - Facundo]
 
 
 @endgantt
