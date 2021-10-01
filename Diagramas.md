@@ -21,7 +21,8 @@ Project starts 2021-09-29
 [Visualizar datos de la base de datos en app] as [VBD] lasts 2 days and starts at [CBD]'s end
 [Escribir a la base de datos desde la app] as [EBD] lasts 2 days and starts at [CBD]'s end
 
-[Frontend de la pagina web] as [FPW] lasts 3 days
+[Frontend de la pagina web] as [FPW] lasts 3 days and starts at [PAW]'s end
+[Backend de la pagina wbe]
 
 
 
