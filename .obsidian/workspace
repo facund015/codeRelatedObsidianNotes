@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "Diagramas.md",
-            "mode": "preview"
+            "mode": "source"
           }
         }
       }
@@ -52,7 +52,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "23823fae0e55db13",
