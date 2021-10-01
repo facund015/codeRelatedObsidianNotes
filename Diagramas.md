@@ -22,7 +22,7 @@ Project starts 2021-09-29
 [Escribir a la base de datos desde la app] as [EBD] lasts 2 days and starts at [CBD]'s end
 
 [Frontend de la pagina web] as [FPW] lasts 3 days and starts at [PAW]'s end
-[Backend de la pagina wbe]
+[Backend de la pagina web] as [BPW] lasts 30 days and starts at [FPW]'s end
 
 
 
