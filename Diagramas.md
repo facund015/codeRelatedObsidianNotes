@@ -12,12 +12,14 @@ Project starts 2021-09-29
 
 [Prototipo de alto nivel - Facundo] as [PAN] lasts 5 days and starts at [CS]'s end
 [Diseno de la base de datos] as [DBD] lasts 30 days and starts at [PAN]'s end
-[Backend General de la app (Cambiar de vistas, display de datos, etc)] as [BGA] lasts 30 days and starts 2021-10-1
+[Backend General de la app (Cambiar de vistas, display de datos, etc)] as [BGA] lasts 30 days and starts at [PAN]'s end
 
 [Conectar app con base de datos] as [CBD] lasts 2 days and starts at [DBD]'s end
 [Visualizar datos de la base de datos en app] as [VBD] lasts 2 days and starts at [CBD]'s end
+[Escribir a la base de datos desde la app] as [EBD] lasts 2 days and starts at [CBD]'s end
 
 
+[Actu]
 @endgantt
 
 
