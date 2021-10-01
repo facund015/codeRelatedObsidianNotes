@@ -8,7 +8,6 @@
 - matricula | nomina para login | cuenta de correo para colaboradores
 - no registro de usuario | base de datos contiene usuarios dummy
 - aplicacion es para usuario | web es para administracion de datos | aplicacion web simple
-- m
 
 ### No funcionales
 - utilizar base de datos brindada por prepanet
