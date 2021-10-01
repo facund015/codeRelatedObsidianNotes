@@ -11,7 +11,7 @@ Project starts 2021-09-29
 [Mockup - Facundo] as [MP] lasts 1 days and starts at [CS]'s start
 
 [Prototipo de alto nivel - Facundo] as [PAN] lasts 5 days and starts at [CS]'s end
-[Diseno de la base de datos] as {}
+[Diseno de la base de datos] as [DBD] lasts 30 days and starts 2021-10-1
 
 
 @endgantt
