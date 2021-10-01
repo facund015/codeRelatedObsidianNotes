@@ -12,9 +12,10 @@ Project starts 2021-09-29
 
 [Prototipo de alto nivel app- Facundo] as [PAN] lasts 5 days and starts at [CS]'s end
 [Prototipo de alto nivel web] as [PAW] lasts 5 days and starts at [CS]'s end
+
 [Frontend de la app] as [FEA] lasts 3 days and starts at [PAN]'s end
-[Diseno de la base de datos] as [DBD] lasts 5 days and starts at [PAN]'s end
-[Backend General de la app (Cambiar de vistas, display de datos, etc)] as [FEA] lasts 30 days and starts at [PAN]'s end
+[Diseno de la base de datos] as [DBD] lasts 5 days and starts 2021-10-7
+[Backend General de la app (Cambiar de vistas, display de datos, etc)] as [BGA] lasts 30 days and starts at [FEA]'s end
 
 [Conectar app con base de datos] as [CBD] lasts 2 days and starts at [DBD]'s end
 [Visualizar datos de la base de datos en app] as [VBD] lasts 2 days and starts at [CBD]'s end
