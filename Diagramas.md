@@ -11,7 +11,7 @@ Project starts 2021-09-29
 [Mockup - Facundo] as [MP] lasts 1 days and starts at [CS]'s start
 
 [Prototipo de alto nivel app- Facundo] as [PAN] lasts 5 days and starts at [CS]'s end
-[Prototipo de alto nivel ] as [PAN] lasts 5 days and starts at [CS]'s end
+[Prototipo de alto nivel web] as [PAW] lasts 5 days and starts at [CS]'s end
 [Diseno de la base de datos] as [DBD] lasts 5 days and starts at [PAN]'s end
 [Backend General de la app (Cambiar de vistas, display de datos, etc)] as [BGA] lasts 30 days and starts at [PAN]'s end
 
