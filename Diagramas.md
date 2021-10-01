@@ -12,6 +12,7 @@ Project starts 2021-09-29
 
 [Prototipo de alto nivel - Facundo] as [PAN] lasts 5 days and starts at [CS]'s end
 [Diseno de la base de datos] as [DBD] lasts 30 days and starts 2021-10-1
+[Backend General de la app] as 
 
 
 @endgantt
