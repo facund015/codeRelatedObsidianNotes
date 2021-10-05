@@ -4,6 +4,7 @@
 @startgantt
 Project starts 2021-09-29
 
+-- 1.1 Definicion del reto --
 [Info General doc SRS - Gilbert] as [SRS] lasts 2 days and starts 2021-09-29
 [Matriz de riesgos - Javier] as [MR] lasts 1 days and starts at [SRS]'s end
 
