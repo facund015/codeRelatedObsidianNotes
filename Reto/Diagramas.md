@@ -25,9 +25,6 @@ Project starts 2021-09-29
 [Frontend de la pagina web] as [FPW] lasts 3 days and starts at [PAW]'s end
 [Backend de la pagina web] as [BPW] lasts 30 days and starts at [FPW]'s end
 
-
-
-[Actualizar Documentacion - Todos] as [ASRS] lasts 60 days
 @endgantt
 
 
