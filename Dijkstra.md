@@ -25,11 +25,11 @@
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | A-A |  0  |  0  |  0  |  0  |  0  |  0  |
 | A-B | inf |  2  | inf |     |     |     |
-| A-C | inf | inf |  3  |     |     |     |
-| A-D | inf |  1  |  1  |     |     |     |
-| A-E | inf | inf |     |     |     |     |
-| A-F | inf | inf |     |     |     |     |
-| A-G | inf | inf |     |     |     |     |
+| A-C | inf | inf |  3  |  3  |  3  |  3  | 
+| A-D | inf |  1  |  1  |  1  |  1  |  1  |
+| A-E | inf | inf |  3  |     |     |     |
+| A-F | inf | inf |  9  |     |     |     |
+| A-G | inf | inf |  5  |     |     |     |
 
 | Node | Shortest Distance | Path |
 |:----:|:-----------------:|:----:|
