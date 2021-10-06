@@ -2,15 +2,13 @@
 
 ##### Ejercicio 1
 ###### Tabla de distancias A
-|     |     |     |     |     |     | 
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|  A  |  0  |  0  |     |     |     |
-|  B  | inf | 10  |     |     |     |
-|  C  | inf |  3  |     |     |     |
-|  D  | inf | inf |     |     |     |
-|  E  | inf | inf |     |     |     |
+|     |     |     |     |     |
+|:---:|:---:|:---:|:---:|:---:|
+| A-A |  0  |  0  |  0  |  0  |
+| A-B | inf | 10  |  7  |  7  |
+| A-C | inf |  3  |  3  | 3    |
+| A-D | inf | inf |     |     |
+| A-E | inf | inf |     |     |
 
 ###### Tabla de distancias B
-| Conexion | Regreso | Ida | 
-|:--------:|:-------:|:---:|
-|          |         |     |
+
