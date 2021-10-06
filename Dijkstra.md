@@ -30,3 +30,12 @@
 | A-E | inf | inf |     |     |     |     |
 | A-F | inf | inf |     |     |     |     |
 | A-G | inf | inf |     |     |     |     |
+
+| Node | Shortest Distance | Path |
+|:----:|:-----------------:|:----:|
+|  B   |                   |      |
+|  C   |                   |      |
+|  D   |         1         | A->D |
+|  E   |                   |      |
+|  F   |                   |      |
+|  G   |                   |      |
