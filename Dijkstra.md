@@ -10,12 +10,12 @@
 | A-D | inf | inf | 11  |  9  |
 | A-E | inf | inf |  5  |  5  |
 
-| Node | Shortest Distance | Path       |
-| ---- | ----------------- | ---------- |
-| B    | 7                 | A->C->B    |
-| C    | 3                 | A->C       |
-| D    | 9                 | A->C->B->D |
-| E    |                   |            |
+| Node | Shortest Distance |    Path    |
+|:----:|:-----------------:|:----------:|
+|  B   |         7         |  A->C->B   |
+|  C   |         3         |    A->C    |
+|  D   |         9         | A->C->B->D |
+|  E   |         5         |  A->C->E   |
 
 
 ##### Ejercicio 2
