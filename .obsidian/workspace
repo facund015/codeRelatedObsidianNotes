@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Diagramas.md",
+            "file": "Reto/Diagramas.md",
             "mode": "source"
           }
         },
@@ -65,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "23823fae0e55db13",
@@ -82,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Diagramas.md",
+                "file": "Reto/Diagramas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,10 +101,11 @@
   },
   "active": "763ae9654e6e7b84",
   "lastOpenFiles": [
+    "Reto/Diagramas.md",
+    "Reto/Indice.md",
     "Diagramas.md",
     "Reto/Primera conferencia socioformador.md",
     "Untitled.md",
-    "Reto/Indice.md",
     "Reto/Cual es el reto.md"
   ]
 }

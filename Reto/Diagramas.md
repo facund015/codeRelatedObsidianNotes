@@ -1,8 +1,10 @@
+## Cronograma/Gantt
 ```plantuml
 
 @startgantt
 Project starts 2021-09-29
 
+-- 1.1 Definicion del reto --
 [Info General doc SRS - Gilbert] as [SRS] lasts 2 days and starts 2021-09-29
 [Matriz de riesgos - Javier] as [MR] lasts 1 days and starts at [SRS]'s end
 
@@ -24,11 +26,11 @@ Project starts 2021-09-29
 [Frontend de la pagina web] as [FPW] lasts 3 days and starts at [PAW]'s end
 [Backend de la pagina web] as [BPW] lasts 30 days and starts at [FPW]'s end
 
+[final] happens 2021-12-3
 
-
-[Actualizar Documentacion - Todos] as [ASRS] lasts 60 days
 @endgantt
 
 
 
 ```
+
