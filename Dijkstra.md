@@ -9,7 +9,10 @@
 | A-C | inf |  3  |  3  |  3  |
 | A-D | inf | inf | 11  |  9  |
 | A-E | inf | inf |  5  |  5  |
-B = A->C->B  | 7
+
+| Node | Shortest Distance | Path        |
+| ---- | ----------------- | ----------- |
+| B    | 7                 | B = A->C->B | 
 
 
 ##### Ejercicio 2
