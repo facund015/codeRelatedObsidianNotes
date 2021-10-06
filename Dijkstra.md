@@ -1,14 +1,22 @@
 ### Facundo Vecchi A01283666
 
 ##### Ejercicio 1
-###### Tabla de distancias A
-|     |     |     |     |     |
+###### Tabla de distancias
+|     |  1  |  2  |  3  |  4  | 
 |:---:|:---:|:---:|:---:|:---:|
 | A-A |  0  |  0  |  0  |  0  |
 | A-B | inf | 10  |  7  |  7  |
-| A-C | inf |  3  |  3  | 3    |
-| A-D | inf | inf |     |     |
-| A-E | inf | inf |     |     |
+| A-C | inf |  3  |  3  |  3  |
+| A-D | inf | inf | 11  |  9  |
+| A-E | inf | inf |  5  |  5  |
 
-###### Tabla de distancias B
+##### Ejercicio 2
 
+###### Tabla de distancias
+|     |  1  |  2  |  3  |  4  | 
+|:---:|:---:|:---:|:---:|:---:|
+| A-A |  0  |  0  |  0  |  0  |
+| A-B | inf | 10  |  7  |  7  |
+| A-C | inf |  3  |  3  |  3  |
+| A-D | inf | inf | 11  |  9  |
+| A-E | inf | inf |  5  |  5  |
