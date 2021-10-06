@@ -2,7 +2,7 @@
 
 ##### Ejercicio 1
 ###### Tabla de distancias A
-| Conexion | Distancia 1 | Distancia 2 |
+| Conexion | regreso | Distancia 2 |
 |:--------:|:-----------:|:-----------:|
 |   A-A    |      0      |      0      |
 |   A-B    |     inf     |     10      |
@@ -12,5 +12,5 @@
 
 ###### Tabla de distancias B
 | Conexion | Distancia 1 | Distancia 2 |
-|:--------:|:-----------:| -----------:|
+|:--------:|:-----------:|:-----------:|
 |          |             |             |
