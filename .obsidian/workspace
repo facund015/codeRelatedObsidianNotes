@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Dijkstra.md",
+            "file": "Reto/Primera conferencia socioformador.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dijkstra.md",
+                "file": "Reto/Primera conferencia socioformador.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,10 +96,11 @@
   },
   "active": "f4561dbd48714bc4",
   "lastOpenFiles": [
+    "Reto/Primera conferencia socioformador.md",
+    "Reto/Info Prepanet.md",
     "Dijkstra.md",
     "Untitled.md",
     "Diagramas.md",
-    "Reto/Primera conferencia socioformador.md",
     "Reto/Indice.md",
     "Reto/Cual es el reto.md"
   ]
