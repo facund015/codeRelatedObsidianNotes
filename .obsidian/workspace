@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "f4561dbd48714bc4",
+        "id": "5095ec25fa7e5a8c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CyberSecurity.md",
+            "file": "Dijkstra.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CyberSecurity.md",
+                "file": "Dijkstra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +87,17 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "f4561dbd48714bc4",
+  "active": "5095ec25fa7e5a8c",
   "lastOpenFiles": [
-    "Untitled.md",
     "Dijkstra.md",
+    "Untitled.md",
     "Reto/Primera conferencia socioformador.md",
     "Reto/Info Prepanet.md",
     "Diagramas.md",
