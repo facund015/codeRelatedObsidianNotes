@@ -47,9 +47,9 @@ class Taller <<(T,white)>> {
 
 
 TalleresInscritos "1" <-- "1" Estudiante::TalleresInscritos
-TalleresInscritos::tallerId "" --> Taller::id
-Estudiante::campusId --> Campus::id
-Coordinador::campusId --> Campus::id 
+TalleresInscritos::tallerId "*" --> "1" Taller::id
+Estudiante::campusId "*" --> "1" Campus::id
+Coordinador::campusId "*" --> "1" Campus::id 
 
 @enduml
 ```
