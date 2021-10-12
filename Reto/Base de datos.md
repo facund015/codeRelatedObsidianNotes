@@ -39,8 +39,13 @@ class Coordinador <<(C,white)>> {
 class Taller <<(T,white)>> {
     {static} -Int id 
     - String nombre
+	- String Descripcion
     - String status
     - String image
+}
+
+class TalleresDisponibles <<(TD, white)>> {
+	
 }
 
 
