@@ -43,5 +43,7 @@ class Campus {
 	-nombre
 }
 
+Estudiante::TalleresInscritos -->  TalleresInscritos
+
 @enduml
 ```
