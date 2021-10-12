@@ -23,5 +23,12 @@ class Adminstrador {
 	-apellido
 }
 
+class Taller {
+    {statis} - id 
+    - nombre
+    - status
+    - image
+}
+
 @enduml
 ```
