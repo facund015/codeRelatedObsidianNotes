@@ -29,7 +29,7 @@ class TalleresInscritos <<(T,white)>> {
 	-String status
 }
 
-class Coordinador <<(T,white)>> {
+class Coordinador <<(C,white)>> {
 	{static} -String nomina
 	-String nombres
 	-String apellido
