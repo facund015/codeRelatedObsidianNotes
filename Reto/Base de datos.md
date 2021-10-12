@@ -45,7 +45,7 @@ class Campus {
 Estudiante::TalleresInscritos --> TalleresInscritos
 TalleresInscritos::tallerId --> Taller::id
 Estudiante::campusId --> Campus::id
-Coordinador::campusId --> Campus::id
+Coordinador::campusId --> Campus::id 
 
 
 @enduml
