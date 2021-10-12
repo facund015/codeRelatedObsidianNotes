@@ -21,7 +21,7 @@ class Coordinador {
 	{static} -String nomina
 	-String nombres
 	-String apellido
-	-String campus
+	-Int campusId
 }
 
 class Adminstrador {
@@ -44,7 +44,9 @@ class Campus {
 
 Estudiante::TalleresInscritos --> TalleresInscritos
 TalleresInscritos::tallerId --> Taller::id
-Estudainte:
+Estudiante::campusId --> Campus::id
+Coordinador::campusId --> Campus::id
+
 
 @enduml
 ```
