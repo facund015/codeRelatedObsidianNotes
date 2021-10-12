@@ -12,8 +12,9 @@ class Estudiante {
 }
 
 class TalleresInscritos {
+	{static} -registroId 
 	{abstract} -Int tallerId
-	{abastract}
+	{abstract} -String estudianteId
 	-String status
 }
 
