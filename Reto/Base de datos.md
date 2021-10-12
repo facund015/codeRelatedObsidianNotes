@@ -2,6 +2,13 @@
 ```plantuml
 @startuml
 skinparam classAttributeIconSize 0
+
+class Adminstrador <<(T,white)>> {
+	{static} -Int id
+	-String nombres
+	-String apellido
+}
+
 class Estudiante <<(T,white)>> {
 	{static} - String matricula
 	-String nombres
@@ -37,17 +44,10 @@ class Taller <<(T,white)>> {
 }
 
 
-class Adminstrador <<(T,white)>> {
-	{static} -Int id
-	-String nombres
-	-String apellido
-}
 
 
-Student "0..*" - "1..*" Course
-
-TalleresInscritos "1" --> "1" Estudiante::TalleresInscritos
-TalleresInscritos::tallerId --> Taller::id
+TalleresInscritos "1" <-- "1" Estudiante::TalleresInscritos
+TalleresInscritos::tallerId "" --> Taller::id
 Estudiante::campusId --> Campus::id
 Coordinador::campusId --> Campus::id 
 
