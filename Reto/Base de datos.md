@@ -3,11 +3,12 @@
 @startuml
 skinparam classAttributeIconSize 0
 class Estudiante {
-	{static} -matricula
+	{static} - string matricula
 	-nombres
 	-apellido
 	-tetraActual
 	-campus
+	-tablaTalleres
 }
 
 class Coordinador {
@@ -31,7 +32,8 @@ class Taller {
 }
 
 class Campus {
-	{static} - 
+	{static} -id
+	-nombre
 }
 
 @enduml
