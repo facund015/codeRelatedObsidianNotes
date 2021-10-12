@@ -2,7 +2,7 @@
 ```plantuml
 @startuml
 skinparam classAttributeIconSize 0
-class Estudiante <<(T,green)>> {
+class Estudiante <<(T,white)>> {
 	{static} - String matricula
 	-String nombres
 	-String apellido
@@ -11,25 +11,25 @@ class Estudiante <<(T,green)>> {
 	{abstract} -Class TalleresInscritos
 }
 
-class Campus {
+class Campus <<(T,white)>> {
 	{static} -Int id
 	-String nombre
 }
 
-class TalleresInscritos {
+class TalleresInscritos <<(T,white)>> {
 	{static} -registroId 
 	{abstract} -Int tallerId
 	-String status
 }
 
-class Coordinador {
+class Coordinador <<(T,white)>> {
 	{static} -String nomina
 	-String nombres
 	-String apellido
 	{abstract} -Int campusId
 }
 
-class Taller {
+class Taller <<(T,white)>> {
     {static} -Int id 
     - String nombre
     - String status
@@ -37,7 +37,7 @@ class Taller {
 }
 
 
-class Adminstrador {
+class Adminstrador <<(T,white)>> {
 	{static} -Int id
 	-String nombres
 	-String apellido
