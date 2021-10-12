@@ -6,7 +6,6 @@ class Estudiante {
 	{static} -matricula
 	-nombres
 	-apellido
-	-edad
 	-semestreActual
 	-campus
 }
@@ -14,7 +13,6 @@ class Estudiante {
 class Coordinador {
 	-nombres
 	-apellido
-	-edad
 	{static} -nomina
 	-campus
 }
@@ -23,7 +21,7 @@ class Adminstrador {
 	-nombres
 	-apellido
 	-edad
-	{static} -nomina
+	{static} -id
 	-campus
 }
 
