@@ -45,7 +45,7 @@ class Taller <<(T,white)>> {
 }
 
 class TalleresDisponibles <<(TD, white)>> {
-	
+	{static} -Int id
 }
 
 
