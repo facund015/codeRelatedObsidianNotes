@@ -18,23 +18,23 @@ class TalleresInscritos {
 }
 
 class Coordinador {
-	{static} -nomina
-	-nombres
-	-apellido
-	-campus
+	{static} -String nomina
+	-String nombres
+	-String apellido
+	-String campus
 }
 
 class Adminstrador {
-	{static} -id
-	-nombres
-	-apellido
+	{static} -Int id
+	-String nombres
+	-String apellido
 }
 
 class Taller {
     {static} -Int id 
-    - nombre
-    - status
-    - image
+    - String nombre
+    - String status
+    - String image
 }
 
 class Campus {
@@ -42,8 +42,7 @@ class Campus {
 	-nombre
 }
 
-Estudiante::TalleresInscritos -->  TalleresInscritos
-TalleresInscritos::tallerId --> Taller::id 
+Estudiante::TalleresInscritos --> TalleresInscritos
 
 @enduml
 ```
