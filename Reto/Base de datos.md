@@ -3,7 +3,7 @@
 @startuml
 skinparam classAttributeIconSize 0
 class Estudiante {
-	{} -matricula
+	{static} -matricula
 	-nombres
 	-apellido
 	-edad
@@ -15,7 +15,7 @@ class Coordinador {
 	-nombres
 	-apellido
 	-edad
-	-nomina
+	{static} -nomina
 	-campus
 }
 
@@ -23,7 +23,7 @@ class Adminstrador {
 	-nombres
 	-apellido
 	-edad
-	-nomina
+	{static} -nomina
 	-campus
 }
 
