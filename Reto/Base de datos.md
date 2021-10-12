@@ -14,7 +14,6 @@ class Estudiante {
 class TalleresInscritos {
 	{static} -registroId 
 	{abstract} -Int tallerId
-	{abstract} -String estudianteId
 	-String status
 }
 
@@ -32,7 +31,7 @@ class Adminstrador {
 }
 
 class Taller {
-    {static} - id 
+    {static} -Int id 
     - nombre
     - status
     - image
@@ -44,6 +43,7 @@ class Campus {
 }
 
 Estudiante::TalleresInscritos -->  TalleresInscritos
+TalleresInscritos::tallerId --> Taller::id 
 
 @enduml
 ```
