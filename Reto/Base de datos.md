@@ -44,9 +44,10 @@ class Taller <<(T,white)>> {
     - String image
 }
 
-class TalleresDisponibles <<(TD, white)>> {
+class TalleresDisponibles <<(T, white)>> {
 	{static} -String id
-	{abstracy} -int tallerId
+	{abstract} -Int tallerId
+	{abstract} -S
 }
 
 
