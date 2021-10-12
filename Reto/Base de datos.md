@@ -3,13 +3,13 @@
 @startuml
 skinparam classAttributeIconSize 0
 
-class Adminstrador <<(T,white)>> {
+class Adminstrador <<(A,white)>> {
 	{static} -Int id
 	-String nombres
 	-String apellido
 }
 
-class Estudiante <<(T,white)>> {
+class Estudiante <<(E,white)>> {
 	{static} - String matricula
 	-String nombres
 	-String apellido
@@ -18,7 +18,7 @@ class Estudiante <<(T,white)>> {
 	{abstract} -Class TalleresInscritos
 }
 
-class Campus <<(T,white)>> {
+class Campus <<(C,white)>> {
 	{static} -Int id
 	-String nombre
 }
