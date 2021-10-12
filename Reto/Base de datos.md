@@ -7,7 +7,7 @@ class Estudiante {
 	-apellido
 	-edad
 	-matricula
-	-emestreActual
+	-semestreActual
 	-campus
 }
 
