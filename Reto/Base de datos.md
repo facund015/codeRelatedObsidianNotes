@@ -6,23 +6,21 @@ class Estudiante {
 	{static} -matricula
 	-nombres
 	-apellido
-	-semestreActual
+	-tetraActual
 	-campus
 }
 
 class Coordinador {
+	{static} -nomina
 	-nombres
 	-apellido
-	{static} -nomina
 	-campus
 }
 
 class Adminstrador {
+	{static} -id
 	-nombres
 	-apellido
-	-edad
-	{static} -id
-	-campus
 }
 
 @enduml
