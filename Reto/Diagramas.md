@@ -44,7 +44,9 @@ skinparam classAttributeIconSize 0
 class Estudiante {
  -Nombre
  -Apellido
- -
+ -edad
+ -matricula
+ -semestreActual
 }
 
 @enduml
