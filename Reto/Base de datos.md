@@ -24,12 +24,6 @@ class Coordinador {
 	-Int campusId
 }
 
-class Adminstrador {
-	{static} -Int id
-	-String nombres
-	-String apellido
-}
-
 class Taller {
     {static} -Int id 
     - String nombre
@@ -40,6 +34,12 @@ class Taller {
 class Campus {
 	{static} -Int id
 	-String nombre
+}
+
+class Adminstrador {
+	{static} -Int id
+	-String nombres
+	-String apellido
 }
 
 Estudiante::TalleresInscritos --> TalleresInscritos
