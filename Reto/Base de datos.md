@@ -24,10 +24,14 @@ class Adminstrador {
 }
 
 class Taller {
-    {statis} - id 
+    {static} - id 
     - nombre
     - status
     - image
+}
+
+class Campus {
+	{static} - 
 }
 
 @enduml
