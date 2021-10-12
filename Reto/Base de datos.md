@@ -7,8 +7,8 @@ class Estudiante {
 	-String nombres
 	-String apellido
 	-Int tetraActual
-	-Int campusId
-	-Class TalleresInscritos
+	{abstract} -Int campusId
+	{abstract} -Class TalleresInscritos
 }
 
 class Campus {
@@ -26,7 +26,7 @@ class Coordinador {
 	{static} -String nomina
 	-String nombres
 	-String apellido
-	-Int campusId
+	{abstract} -Int campusId
 }
 
 class Taller {
