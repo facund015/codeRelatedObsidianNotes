@@ -3,16 +3,20 @@
 @startuml
 skinparam classAttributeIconSize 0
 class Estudiante {
-	-Nombre
-	-Apellido
+	-nombres
+	-apellido
 	-edad
 	-matricula
-	-semestreActual
+	-emestreActual
 	-campus
 }
 
 class Coordinador {
-	
+	-nombres
+	-apellido
+	-edad
+	-nomina
+	-campus
 }
 
 @enduml
