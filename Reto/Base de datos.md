@@ -3,12 +3,12 @@
 @startuml
 skinparam classAttributeIconSize 0
 class Estudiante {
-	{static} - string matricula
-	-nombres
-	-apellido
-	-tetraActual
-	-campus
-	-tablaTalleres
+	{static} - String matricula
+	-String nombres
+	-String apellido
+	-Int tetraActual
+	-Int campusId
+	-Class talleres
 }
 
 class Coordinador {
