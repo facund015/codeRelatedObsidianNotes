@@ -46,6 +46,7 @@ class Taller <<(T,white)>> {
 
 class TalleresDisponibles <<(TD, white)>> {
 	{static} -String id
+	{abstracy} -int tallerId
 }
 
 
@@ -53,6 +54,7 @@ class TalleresDisponibles <<(TD, white)>> {
 
 TalleresInscritos "1" <-- "1" Estudiante::TalleresInscritos
 TalleresInscritos::tallerId "*" --> "1" TalleresDisponibles::id
+TalleresDisponibles::tallerId "*" --> "1" Taller::id
 Estudiante::campusId "*" --> "1" Campus::id
 Coordinador::campusId "*" --> "1" Campus::id 
 
