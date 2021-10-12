@@ -2,7 +2,7 @@
 ```plantuml
 @startuml
 skinparam classAttributeIconSize 0
-class Estudiante {
+class Estudiante <<(T,green)>> {
 	{static} - String matricula
 	-String nombres
 	-String apellido
