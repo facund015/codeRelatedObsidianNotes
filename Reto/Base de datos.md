@@ -3,10 +3,10 @@
 @startuml
 skinparam classAttributeIconSize 0
 class Estudiante {
+	{} -matricula
 	-nombres
 	-apellido
 	-edad
-	-matricula
 	-semestreActual
 	-campus
 }
