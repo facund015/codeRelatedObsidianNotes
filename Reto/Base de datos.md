@@ -47,7 +47,6 @@ class Taller <<(T,white)>> {
 class TalleresDisponibles <<(T, white)>> {
 	{static} -String id
 	{abstract} -Int tallerId
-	{abstract} -S
 }
 
 
