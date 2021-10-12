@@ -19,5 +19,13 @@ class Coordinador {
 	-campus
 }
 
+class Adminstrador {
+	-nombres
+	-apellido
+	-edad
+	-nomina
+	-campus
+}
+
 @enduml
 ```
