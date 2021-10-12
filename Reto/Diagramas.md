@@ -47,6 +47,7 @@ class Estudiante {
  -edad
  -matricula
  -semestreActual
+ -campus
 }
 
 @enduml
