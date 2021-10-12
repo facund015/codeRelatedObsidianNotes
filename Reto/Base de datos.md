@@ -38,11 +38,13 @@ class Taller {
 }
 
 class Campus {
-	{static} -id
-	-nombre
+	{static} -Int id
+	-String nombre
 }
 
 Estudiante::TalleresInscritos --> TalleresInscritos
+TalleresInscritos::tallerId --> Taller::id
+Estudainte:
 
 @enduml
 ```
