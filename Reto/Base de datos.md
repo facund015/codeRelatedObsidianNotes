@@ -46,7 +46,7 @@ class Adminstrador <<(T,white)>> {
 
 Student "0..*" - "1..*" Course
 
-Estudiante::TalleresInscritos "1" --> "1" TalleresInscritos
+TalleresInscritos "1" --> "1" Estudiante::TalleresInscritos
 TalleresInscritos::tallerId --> Taller::id
 Estudiante::campusId --> Campus::id
 Coordinador::campusId --> Campus::id 
