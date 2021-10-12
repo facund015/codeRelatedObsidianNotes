@@ -37,4 +37,16 @@ Project starts 2021-09-29
 
 
 ```
+##
+```plantuml
+@startuml
+skinparam classAttributeIconSize 0
+class Dummy {
+ -field1
+ #field2
+ ~method1()
+ +method2()
+}
 
+@enduml
+```
