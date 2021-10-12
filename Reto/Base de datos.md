@@ -43,7 +43,10 @@ class Adminstrador <<(T,white)>> {
 	-String apellido
 }
 
-Estudiante::TalleresInscritos --> TalleresInscritos
+
+Student "0..*" - "1..*" Course
+
+Estudiante::TalleresInscritos --- TalleresInscritos
 TalleresInscritos::tallerId --> Taller::id
 Estudiante::campusId --> Campus::id
 Coordinador::campusId --> Campus::id 
