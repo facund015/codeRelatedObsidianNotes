@@ -56,7 +56,7 @@ class TalleresDisponibles <<(T, white)>> {
 TalleresInscritos "1" <-- "1" Estudiante::TalleresInscritos
 TalleresInscritos::tallerId "*" --> "1" TalleresDisponibles::id
 TalleresDisponibles::tallerId "*" --> "1" Taller::id
- TalleresDisponibles::campusId "*" --> "1" 
+Campus::id "*" <-- "1" TalleresDisponibles::campusId
 Estudiante::campusId "*" --> "1" Campus::id
 Coordinador::campusId "*" --> "1" Campus::id 
 
