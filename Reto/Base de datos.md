@@ -12,7 +12,7 @@ class Estudiante {
 }
 
 class Talleres {
-	
+	{static} -tallerId
 }
 
 class Coordinador {
