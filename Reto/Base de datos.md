@@ -3,6 +3,10 @@
 @startuml
 skinparam classAttributeIconSize 0
 
+class Campus <<(C,white)>> {
+	{static} -Int id
+	-String nombre
+}
 class Adminstrador <<(A,white)>> {
 	{static} -Int id
 	-String nombres
@@ -22,19 +26,6 @@ class Estudiante <<(E,white)>> {
 	{abstract} -Int campusId
 	{abstract} -Class TalleresInscritos
 }
-
-class Campus <<(C,white)>> {
-	{static} -Int id
-	-String nombre
-}
-
-class TalleresInscritos <<(T,white)>> {
-	{static} -registroId 
-	{abstract} -String tallerId
-	-String status
-}
-
-
 class Taller <<(T,white)>> {
     {static} -Int id 
     - String nombre
@@ -42,7 +33,6 @@ class Taller <<(T,white)>> {
     - String status
     - String image
 }
-
 class TalleresDisponibles <<(T, white)>> {
 	{static} -String id
 	{abstract} -Int tallerId
@@ -50,6 +40,16 @@ class TalleresDisponibles <<(T, white)>> {
 	-Timestamp tiempoInicio
 	-Timestamp tiempoFin
 }
+class TalleresInscritos <<(T,white)>> {
+	{static} -registroId 
+	{abstract} -String tallerId
+	-String status
+}
+
+
+
+
+
 
 
 
