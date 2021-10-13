@@ -8,7 +8,12 @@ class Adminstrador <<(A,white)>> {
 	-String nombres
 	-String apellido
 }
-
+class Coordinador <<(C,white)>> {
+	{static} -String nomina
+	-String nombres
+	-String apellido
+	{abstract} -Int campusId
+}
 class Estudiante <<(E,white)>> {
 	{static} - String matricula
 	-String nombres
@@ -29,12 +34,6 @@ class TalleresInscritos <<(T,white)>> {
 	-String status
 }
 
-class Coordinador <<(C,white)>> {
-	{static} -String nomina
-	-String nombres
-	-String apellido
-	{abstract} -Int campusId
-}
 
 class Taller <<(T,white)>> {
     {static} -Int id 
