@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Reto/Base de datos.md",
+            "file": "Reto/Diagramas.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reto/Base de datos.md",
+                "file": "Reto/Diagramas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,8 +97,8 @@
   },
   "active": "5095ec25fa7e5a8c",
   "lastOpenFiles": [
-    "Reto/Base de datos.md",
     "Reto/Diagramas.md",
+    "Reto/Base de datos.md",
     "Dijkstra.md",
     "Untitled.md",
     "Reto/Primera conferencia socioformador.md",
