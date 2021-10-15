@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "5095ec25fa7e5a8c",
+        "id": "763ae9654e6e7b84",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -78,33 +78,21 @@
                 "unlinkedCollapsed": true
               }
             }
-          },
-          {
-            "id": "a27ac9cbf65e25a6",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "5095ec25fa7e5a8c",
+  "active": "763ae9654e6e7b84",
   "lastOpenFiles": [
     "Reto/Base de datos.md",
     "Reto/Diagramas.md",
-    "Dijkstra.md",
+    "Reto/Cual es el reto.md",
     "Untitled.md",
-    "Reto/Primera conferencia socioformador.md",
-    "Reto/Info Prepanet.md",
-    "Diagramas.md",
     "Reto/Indice.md",
-    "Reto/Cual es el reto.md"
+    "Diagramas.md",
+    "Reto/Primera conferencia socioformador.md"
   ]
 }
