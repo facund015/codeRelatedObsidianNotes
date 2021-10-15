@@ -8,7 +8,7 @@ class Campus <<(C,white)>> {
 	-String nombre
 }
 class Adminstrador <<(A,white)>> {
-	{static} -Int id
+	{static} -Int nomina
 	-String nombres
 	-String apellido
 }
@@ -30,7 +30,6 @@ class Taller <<(T,white)>> {
     {static} -Int id 
     - String nombre
 	- String Descripcion
-    - String status
     - String image
 }
 class TalleresDisponibles <<(T, white)>> {
@@ -44,6 +43,7 @@ class TalleresInscritos <<(T,white)>> {
 	{static} -registroId 
 	{abstract} -String tallerId
 	-String status
+	-Int Calificacion
 }
 
 
