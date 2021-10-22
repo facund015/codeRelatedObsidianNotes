@@ -39,8 +39,8 @@ class TalleresDisponibles <<(T, white)>> {
 	-Timestamp tiempoFin
 }
 class TalleresInscritos <<(T,white)>> {
-	{static} -registroId 
-	{abstract} -
+	{static} -Int registroId 
+	{abstract} -String studentId
 	{abstract} -String tallerId
 	-String status
 	-Int Calificacion
@@ -52,9 +52,7 @@ class TalleresInscritos <<(T,white)>> {
 
 
 
-
-
-TalleresInscritos "1" <-- "1" Estudiante::TalleresInscritos
+TalleresInscritos:studentId "1" --> "1" Estudiante::matricula
 TalleresInscritos::tallerId "*" --> "1" TalleresDisponibles::id
 TalleresDisponibles::tallerId "*" --> "1" Taller::id
 Campus::id "*" <-- "1" TalleresDisponibles::campusId
