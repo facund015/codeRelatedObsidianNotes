@@ -24,7 +24,6 @@ class Estudiante <<(E,white)>> {
 	-String apellido
 	-Int tetraActual
 	{abstract} -Int campusId
-	{abstract} -Class TalleresInscritos
 }
 class Taller <<(T,white)>> {
     {static} -Int id 
@@ -41,6 +40,7 @@ class TalleresDisponibles <<(T, white)>> {
 }
 class TalleresInscritos <<(T,white)>> {
 	{static} -registroId 
+	{abstract} -
 	{abstract} -String tallerId
 	-String status
 	-Int Calificacion

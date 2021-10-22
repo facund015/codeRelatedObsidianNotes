@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Reto/Info Prepanet.md",
-            "mode": "preview"
+            "file": "Reto/Base de datos.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reto/Info Prepanet.md",
+                "file": "Reto/Base de datos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -83,12 +83,13 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "763ae9654e6e7b84",
   "lastOpenFiles": [
-    "Reto/Info Prepanet.md",
     "Reto/Base de datos.md",
+    "Reto/Info Prepanet.md",
     "Reto/Diagramas.md",
     "Reto/Cual es el reto.md",
     "Untitled.md",
