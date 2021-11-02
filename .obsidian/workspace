@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Reto/Info Prepanet.md",
+            "file": "Reto/Base de datos.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reto/Info Prepanet.md",
+                "file": "Reto/Base de datos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,9 +88,9 @@
   },
   "active": "763ae9654e6e7b84",
   "lastOpenFiles": [
-    "Reto/Info Prepanet.md",
     "Reto/Base de datos.md",
     "Reto/Diagramas.md",
+    "Reto/Info Prepanet.md",
     "Reto/Cual es el reto.md",
     "Untitled.md",
     "Reto/Indice.md",
