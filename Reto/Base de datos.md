@@ -3,18 +3,19 @@
 @startuml
 skinparam classAttributeIconSize 0
 
-class Campus <<(C,white)>> {
-	{static} -Int id
-	-String nombre
-}
-
-class Users <<(E,white)>> {
+class Users <<(U,white)>> {
 	{static} - String matricula
 	-String nombres
 	-String apellido
 	-Int tetraActual
 	{abstract} -Int campusId
 }
+
+class Campus <<(C,white)>> {
+	{static} -Int id
+	-String nombre
+}
+
 class Taller <<(T,white)>> {
     {static} -Int id 
     - String nombre
