@@ -7,18 +7,8 @@ class Campus <<(C,white)>> {
 	{static} -Int id
 	-String nombre
 }
-class Adminstrador <<(A,white)>> {
-	{static} -Int nomina
-	-String nombres
-	-String apellido
-}
-class Coordinador <<(C,white)>> {
-	{static} -String nomina
-	-String nombres
-	-String apellido
-	{abstract} -Int campusId
-}
-class Estudiante <<(E,white)>> {
+
+class Users <<(E,white)>> {
 	{static} - String matricula
 	-String nombres
 	-String apellido
