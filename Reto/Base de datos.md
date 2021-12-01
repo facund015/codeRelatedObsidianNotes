@@ -41,12 +41,12 @@ class TalleresInscritos <<(T,white)>> {
 
 
 
-TalleresInscritos::studentId "*" --> "1" Estudiante::matricula
+TalleresInscritos::studentId "*" --> "1" Users::matricula
 TalleresInscritos::tallerId "*" --> "1" TalleresDisponibles::id
 TalleresDisponibles::tallerId "*" --> "1" Taller::id
 Campus::id "*" <-- "1" TalleresDisponibles::campusId
-Estudiante::campusId "*" --> "1" Campus::id
-Coordinador::campusId "*" --> "1" Campus::id 
+Users::campusId "*" --> "1" Campus::id
+
 
 @enduml
 ```
