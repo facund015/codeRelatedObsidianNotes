@@ -4,11 +4,13 @@
 skinparam classAttributeIconSize 0
 
 class Users <<(U,white)>> {
-	{static} - String matricula
-	-String nombres
-	-String apellido
-	-Int tetraActual
-	{abstract} -Int campusId
+	{abstract} -String Campus_id
+	-String Current_period
+	-String Email
+	-String {static} Id
+	- Last_name
+	- Name
+	- Role
 }
 
 class Campus <<(C,white)>> {
