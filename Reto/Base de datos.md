@@ -49,9 +49,10 @@ class TalleresInscritos <<(T,white)>> {
 
 Users::Id "1" <-- "*" TalleresInscritos::studentId
 Users::Campus_id "*" --> "1" Campus::id
-Available_workshop::id "1" <-- "*" TalleresInscritos::tallerId
-Available_workshop::tallerId "*" --> "1" Workshop::Id
-Available_workshop::campusId "1" -->  "*" Campus::id
+Available_workshop::Id "1" <-- "*" TalleresInscritos::tallerId
+//Available_workshop::Campus_id "1" -->  "*" Campus::id
+Available_workshop::Workshop_id "*" --> "1" Workshop::Id
+
 
 
 
