@@ -40,13 +40,11 @@ class Available_workshop <<(A, white)>> {
 	-Timestamp End_time
 }
 class Enrolled_workshop <<(E,white)>> {
-	AWorkshop_id
-	Grade
-	Register_id "ew01-A07045937"
-
-	Status true
-
-	Student_id "A07045937"
+	{static} -String Register_id
+	{abstract} -String AWorkshop_id
+	{abstract} -String Student_id
+	-Int Grade
+	-Bool Status
 }
 
 Users::Id "1" <-- "*" Enrolled_workshop::studentId
