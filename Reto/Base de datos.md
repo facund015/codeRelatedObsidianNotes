@@ -32,12 +32,12 @@ class Workshop <<(W,white)>> {
 	-String Requirement
 }
 class TalleresDisponibles <<(T, white)>> {
-	Campus_id
-	End_time November
-	Id
-	Period
-	Start_time
-	Workshop_id
+	-Id
+	-Campus_id
+	-Workshop_id
+	-Period
+	-Start_time
+	-End_time
 }
 class TalleresInscritos <<(T,white)>> {
 	{static} -Int registroId 
