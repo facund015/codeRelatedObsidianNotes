@@ -39,12 +39,12 @@ class TalleresInscritos <<(T,white)>> {
 	-Int Calificacion
 }
 
-
-TalleresInscritos::studentId "*" --> "1" Users::Id
+Users::Id "1" <-- "*" TalleresInscritos::studentId
+Users::Campus_id "*" --> "1" Campus::id
 TalleresInscritos::tallerId "*" --> "1" TalleresDisponibles::id
 TalleresDisponibles::tallerId "*" --> "1" Taller::id
 Campus::id "*" <-- "1" TalleresDisponibles::campusId
-Users::Campus_id "*" --> "1" Campus::id
+
 
 
 @enduml
