@@ -31,7 +31,7 @@ class Workshop <<(W,white)>> {
 	-String Image
 	-String Requirement
 }
-class Available_workshop <<(T, white)>> {
+class Available_workshop <<(A, white)>> {
 	{static} -String Id
 	{abstract} -String Campus_id
 	{abstract} -String Workshop_id
@@ -39,18 +39,20 @@ class Available_workshop <<(T, white)>> {
 	-Timestamp Start_time
 	-Timestamp End_time
 }
-class TalleresInscritos <<(T,white)>> {
-	{static} -Int registroId 
-	{abstract} -String studentId
-	{abstract} -String tallerId
-	-String status
-	-Int Calificacion
+class Enrolled_workshop <<(E,white)>> {
+	AWorkshop_id
+	Grade
+	Register_id "ew01-A07045937"
+
+	Status true
+
+	Student_id "A07045937"
 }
 
-Users::Id "1" <-- "*" TalleresInscritos::studentId
+Users::Id "1" <-- "*" Enrolled_workshop::studentId
 Users::Campus_id "*" --> "1" Campus::id
-Available_workshop::Id "1" <-- "*" TalleresInscritos::tallerId
-//Available_workshop::Campus_id "1" -->  "*" Campus::id
+Available_workshop::Id "1" <-- "*" Enrolled_workshop::tallerId
+Available_workshop::Campus_id "1" -->  "*" Campus::id
 Available_workshop::Workshop_id "*" --> "1" Workshop::Id
 
 
