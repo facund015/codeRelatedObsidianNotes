@@ -24,11 +24,15 @@ class Period <<(P,white)>> {
 	-Bool Current_period
 }
 
-class Taller <<(T,white)>> {
-    {static} -Int id 
-    - String name
-	- String Descripcion
-    - String image
+class Workshop <<(W,white)>> {
+    Description
+	Id
+
+Image ""
+
+Name "Liderazgo Positivo y Transformación Personal"
+
+Requirement "1"
 }
 class TalleresDisponibles <<(T, white)>> {
 	{static} -String id
