@@ -18,7 +18,11 @@ class Campus <<(C,white)>> {
 	-String name
 }
 
-class Period <<()
+class Period <<(P,white)>> {
+	{static} -Int Id
+	-String Name
+	-Bool Current_period
+}
 
 class Taller <<(T,white)>> {
     {static} -Int id 
