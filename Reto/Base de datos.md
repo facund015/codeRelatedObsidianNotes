@@ -15,12 +15,14 @@ class Users <<(U,white)>> {
 
 class Campus <<(C,white)>> {
 	{static} -Int id
-	-String nombre
+	-String name
 }
+
+class Period <<()
 
 class Taller <<(T,white)>> {
     {static} -Int id 
-    - String nombre
+    - String name
 	- String Descripcion
     - String image
 }
