@@ -25,14 +25,11 @@ class Period <<(P,white)>> {
 }
 
 class Workshop <<(W,white)>> {
-    Description
-	Id
-
-Image ""
-
-Name "Liderazgo Positivo y Transformación Personal"
-
-Requirement "1"
+	-String Id
+	-String Name
+	-String Description
+	-String Image
+	-String Requirement
 }
 class TalleresDisponibles <<(T, white)>> {
 	{static} -String id
