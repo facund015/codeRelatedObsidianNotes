@@ -25,7 +25,7 @@ class Period <<(P,white)>> {
 }
 
 class Workshop <<(W,white)>> {
-	-String Id
+	{static} -String Id
 	-String Name
 	-String Description
 	-String Image
@@ -49,7 +49,7 @@ class TalleresInscritos <<(T,white)>> {
 Users::Id "1" <-- "*" TalleresInscritos::studentId
 Users::Campus_id "*" --> "1" Campus::id
 TalleresDisponibles::id "1" <-- "*" TalleresInscritos::tallerId
-TalleresDisponibles::tallerId "*" --> "1" Taller::id
+TalleresDisponibles::tallerId "*" --> "1" Workshop::Id
 TalleresDisponibles::campusId "1" -->  "*" Campus::id
 
 
