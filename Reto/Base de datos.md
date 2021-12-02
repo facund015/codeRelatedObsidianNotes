@@ -55,12 +55,9 @@ Available_workshop::Workshop_id --> Workshop::Id
 Available_workshop::Period --> Period::Name
 
 Enrolled_workshop::AWorkshop_id --> Available_workshop::Id
+Enrolled_workshop::Student_id --> Users::Id
 
-
-Users::Id <-- Enrolled_workshop::Student_id
-
-Campus::Id <-- Users::Campus_id
-
+Users::Campus_id --> Campus::Id
 
 
 
