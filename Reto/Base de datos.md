@@ -61,9 +61,5 @@ Users::Campus_id --> Campus::Id
 
 
 
-
-
-
-
 @enduml
 ```
