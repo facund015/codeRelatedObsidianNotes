@@ -31,7 +31,7 @@ class Workshop <<(W,white)>> {
 	-String Image
 	-String Requirement
 }
-class TalleresDisponibles <<(T, white)>> {
+class Available_workshop <<(T, white)>> {
 	{static} -String Id
 	{abstract} -String Campus_id
 	{abstract} -String Workshop_id
@@ -49,9 +49,9 @@ class TalleresInscritos <<(T,white)>> {
 
 Users::Id "1" <-- "*" TalleresInscritos::studentId
 Users::Campus_id "*" --> "1" Campus::id
-TalleresDisponibles::id "1" <-- "*" TalleresInscritos::tallerId
-TalleresDisponibles::tallerId "*" --> "1" Workshop::Id
-TalleresDisponibles::campusId "1" -->  "*" Campus::id
+Available_workshop::id "1" <-- "*" TalleresInscritos::tallerId
+Available_workshop::tallerId "*" --> "1" Workshop::Id
+Available_workshop::campusId "1" -->  "*" Campus::id
 
 
 
