@@ -47,11 +47,11 @@ class Enrolled_workshop <<(E,white)>> {
 	-Bool Status
 }
 
-Users::Id "1" <-- "*" Enrolled_workshop::studentId
-Users::Campus_id "*" --> "1" Campus::id
-Available_workshop::Id "1" <-- "*" Enrolled_workshop::tallerId
-Available_workshop::Campus_id "1" -->  "*" Campus::id
-Available_workshop::Workshop_id "*" --> "1" Workshop::Id
+Users::Id <-- Enrolled_workshop::Student_id
+Users::Campus_id --> Campus::id
+Available_workshop::Id <-- Enrolled_workshop::AWorkshop_id
+Available_workshop::Campus_id --> Campus::id
+Available_workshop::Workshop_id --> Workshop::Id
 
 
 
