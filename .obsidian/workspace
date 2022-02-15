@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "6to Semestre/Notas #1.md",
+            "file": "6to Semestre/Notas/Notas_procesos_1.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6to Semestre/Notas #1.md",
+                "file": "6to Semestre/Notas/Notas_procesos_1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +88,7 @@
   },
   "active": "763ae9654e6e7b84",
   "lastOpenFiles": [
-    "6to Semestre/Notas #1.md",
+    "6to Semestre/Notas/Notas_procesos_1.md",
     "5to semestre/Reto/Base de datos.md",
     "5to semestre/Reto/Diagramas.md",
     "5to semestre/Reto/Info Prepanet.md",
