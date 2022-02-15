@@ -7,19 +7,17 @@
   "pdf-to-markdown-plugin",
   "obsidian-charts",
   "obsidian-icons-plugin",
-  "search-on-internet",
   "better-pdf-plugin",
   "obsidian-plantuml",
   "csv-obsidian",
-  "obsidian-text-expander",
   "txt-as-md-obsidian",
   "obsidian-banners",
   "obsidian-csv-table",
   "customizable-sidebar",
   "taskbone-ocr-plugin",
-  "obsidian-qrcode-plugin",
   "obsidian-code-block-enhancer",
   "obsidian-jupyter",
   "mdx-as-md-obsidian",
-  "obsidian-kanban"
+  "obsidian-kanban",
+  "obsidian-qrcode-plugin"
 ]
