@@ -7,7 +7,6 @@
   "pdf-to-markdown-plugin",
   "obsidian-charts",
   "obsidian-icons-plugin",
-  "obsidian-leaflet-plugin",
   "search-on-internet",
   "better-pdf-plugin",
   "obsidian-plantuml",
@@ -16,13 +15,11 @@
   "txt-as-md-obsidian",
   "obsidian-banners",
   "obsidian-csv-table",
-  "open-vscode",
   "customizable-sidebar",
   "taskbone-ocr-plugin",
   "obsidian-qrcode-plugin",
   "obsidian-code-block-enhancer",
   "obsidian-jupyter",
-  "obsidian-react-components",
   "mdx-as-md-obsidian",
   "obsidian-kanban"
 ]
