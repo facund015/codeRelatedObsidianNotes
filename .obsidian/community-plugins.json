@@ -2,7 +2,6 @@
   "cmenu-plugin",
   "table-editor-obsidian",
   "sliding-panes-obsidian",
-  "obsidian-kanban",
   "obsidian-mind-map",
   "obsidian-git",
   "pdf-to-markdown-plugin",
@@ -13,9 +12,7 @@
   "better-pdf-plugin",
   "obsidian-plantuml",
   "csv-obsidian",
-  "obsidian-latex",
   "obsidian-text-expander",
-  "obsidian-dice-roller",
   "txt-as-md-obsidian",
   "obsidian-banners",
   "obsidian-csv-table",
@@ -25,7 +22,7 @@
   "obsidian-qrcode-plugin",
   "obsidian-code-block-enhancer",
   "obsidian-jupyter",
-  "obsidian-grandfather",
   "obsidian-react-components",
-  "mdx-as-md-obsidian"
+  "mdx-as-md-obsidian",
+  "obsidian-kanban"
 ]
