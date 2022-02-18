@@ -1,6 +1,6 @@
-## IEEE
+### IEEE - Institute of Electrical and Electronic Engineering
 - Computer society
 	- Software engineering
 	- COMPUTER
-## ACM
+### ACM - Association of Co
 
