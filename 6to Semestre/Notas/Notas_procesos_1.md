@@ -5,7 +5,7 @@
 	- Students
 		- IEEE Potential
 - ##### ACM - Association of Computing Machinery
-- ##### REDMIS - # Red Temática Mexicana de Ingeniería de Software
+- ##### REDMIS - Red Temática Mexicana de Ingeniería de Software
 	- CONISOFT
 - ##### SEI - Software Engineering Institute
 
