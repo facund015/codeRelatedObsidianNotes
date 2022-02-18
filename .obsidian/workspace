@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "6b81884a31b8a178",
+        "id": "817a848c8ab0b0c9",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "6to Semestre/Reto/TESTS.md",
+            "mode": "source",
+            "source": true
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "6to Semestre/Reto/TESTS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -74,33 +79,24 @@
                 "unlinkedCollapsed": true
               }
             }
-          },
-          {
-            "id": "a27ac9cbf65e25a6",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "6b81884a31b8a178",
+  "active": "817a848c8ab0b0c9",
   "lastOpenFiles": [
-    "Reto/Diagramas.md",
-    "Reto/Indice.md",
-    "Reto/Cual es el reto.md",
-    "Reto/Base de datos.md",
-    "Dijkstra.md",
-    "Untitled.md",
-    "Reto/Primera conferencia socioformador.md",
-    "Reto/Info Prepanet.md",
-    "Diagramas.md"
+    "6to Semestre/Reto/TESTS.md",
+    "6to Semestre/Notas/Notas_procesos_1.md",
+    "5to semestre/Reto/Base de datos.md",
+    "5to semestre/Reto/Diagramas.md",
+    "5to semestre/Reto/Info Prepanet.md",
+    "5to semestre/Reto/Cual es el reto.md",
+    "5to semestre/Reto/Indice.md",
+    "Diagramas.md",
+    "5to semestre/Reto/Primera conferencia socioformador.md"
   ]
 }
