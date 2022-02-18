@@ -1,9 +1,9 @@
 ### IEEE - Institute of Electrical and Electronic Engineering
 - Computer society
 	- IEEE Software
-	- IEE Computer
+	- IEEE Computer
 - Students
-	- IEEE 
+	- IEEE Potential
 ### ACM - Association of Computing Machinery
 
 

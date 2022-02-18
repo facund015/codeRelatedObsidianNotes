@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "763ae9654e6e7b84",
+        "id": "817a848c8ab0b0c9",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "6to Semestre/Notas/Notas_procesos_1.md",
-            "mode": "source",
-            "source": true
+            "mode": "preview",
+            "source": false
           }
         }
       }
@@ -87,7 +87,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "763ae9654e6e7b84",
+  "active": "817a848c8ab0b0c9",
   "lastOpenFiles": [
     "6to Semestre/Notas/Notas_procesos_1.md",
     "5to semestre/Reto/Base de datos.md",
